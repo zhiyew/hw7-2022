@@ -71,12 +71,12 @@ document.querySelector("#mute").addEventListener("click", function() {
 
 if (video.muted === false) {
 	video.muted = true;
-	document.getElementById("mute").textContent = "Mute";
-	console.log("Mute");
-} else {
-	video.muted = false;
 	document.getElementById("mute").textContent = "Unmute";
 	console.log("Unmute");
+} else {
+	video.muted = false;
+	document.getElementById("mute").textContent = "Mute";
+	console.log("Mute");
 }
 } )
 
